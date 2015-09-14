@@ -8,7 +8,6 @@ public class Main
   public void onEnable()
   {
     getCommand("report").setExecutor(new Report(this));
-    getCommand("")
     }
   
   
