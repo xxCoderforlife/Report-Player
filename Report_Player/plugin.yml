@@ -1,8 +1,6 @@
-name: Report Player
-version: 1.4
+name: ReportPlayer
+version: 1.5.2
 main: me.Coderforlife.Report.Main
-softdepend: [Notifications]
-website: http://dev.bukkit.org/server-mods/reprot-player
 
 commands:
     report:
@@ -11,7 +9,7 @@ commands:
         
         
 permissons:
-    report.player:
+    report.command:
         default: true
     report.view:
         default: op
